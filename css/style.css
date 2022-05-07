@@ -1,5 +1,13 @@
+body { 
+	margin: 0px; 
+	font-family: 'Roboto', sans-serif;
+}
+
 #homeimage {
 	max-width: 50em;
 	margin: 15 px 25%;
 }
+
+header { text-align: center;
+	 }
 
