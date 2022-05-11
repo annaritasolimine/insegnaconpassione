@@ -72,3 +72,12 @@ header {
 
 #background { background-color:  #fffeef ; }
 
+#download {
+	text-align: left;
+}
+
+#albinoni {
+	margin: 10px 25%;
+	max-width: 80%;
+	height: 400px;
+}
