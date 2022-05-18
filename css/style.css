@@ -1,48 +1,89 @@
 body { 
 	margin: 0px; 
 	font-family: 'Oleo Script', cursive; background-color:  #fffeef ;
+	text-align: center;
+
 }
 
 
-header {
+header { background-color: #a7f6f6;
+	padding: 10px 5% 0px 5%;
+
   
   /*
   text-align: center;
   background-color: white;
   color: red;
   padding: 5% 5% 0px 5%;
-  */
-  background-color:  #fffeef ;
+
+  background-color:  #fffeef ;*/
 }
 
-.titolo {
-	width: 100%;	
-	height: 100px;  	/*perchè su pc è una buona altezza*/
-	margin: 0px; 		/*perchè lo metteva di default, quindi l'ho tolto*/
+.conteniner-fluid { background-image: linear-gradient ( 45deg, #212121, #616161); }
 
-	text-align: center;	
-	font-size: 300%; 
-}
+h1 {font-size: 300%;}
 
-#menu {
+div.menudiv
+{ 
+	color: black;
 	text-align: center;
+	}
 
+a { text-decoration: none;
+color: inherit; }
+
+li.menu-list {display: inline;
+margin: 0px 120px 0px 120px;
+font-size: 30px;
+text-align: center;}
+
+section {text-align: center;}
+
+#logo { width: 100%;
+	height: 100px;
+	margin: 0px 30px 0px 30px; 
+	}
+
+/*.titolo {
+	text-align: center;
 	width: 100%;
-	height: 400px;						/*altrimenti l'immagine di sfondo non si vede*/
+	height: 100px;
+	margin: 0px;
 
+font-size: 300%;
+	background-color:  #fffeef ;
+}*/
+
+#immaginemenu {
+	margin: 0px;
+	max-width: 100%;
+
+}
+
+ /* #menu {
+	text-align: center;
+	width: 100%;
+	height: 400px; */
+	
+	/*background-color:  #fffeef ;
 	background-image: url("../immagini/pentagramma.png");
 	background-repeat: no-repeat; 
 	background-size: 100% auto;		/*per rimpicciolire l'immagine di sfondo*/
-/*	background-size: cover;  			/*Resize the background image to cover the entire container */
-
-/*	padding: 5% 5% 0px 5%; */
+	background-size: cover; */			/*Resize the background image to cover the entire container */
+	
+	padding: 5% 5% 0px 5%;
 }
 
 #menu ul {
+	
 	margin:0px;
-	width: 100%; /* Dimensioni della barra del menu */
+	width:100%; /* Dimensioni della barra del menu */
 	height: 100%;
-
+	
+	padding-left:0px ;
+	padding-bottom: 1000px;
+	margin:0 auto;
+	
 	text-align: center;
 	padding: 0px 0px 0px 0px;
 
@@ -50,38 +91,50 @@ header {
 }
 
 #menu li {
-	display:inline-block; 	/*ogni elemento si mette a destra del precedente*/
-	margin: auto auto 0px auto; /*per mettere gli elementi del menù sotto le note*/
+	 
 
-	padding: 0px 11% 0px 11%; /*perchè siano in linea con le note*/
-	text-transform: uppercase;
-}
+	  margin: auto auto 0xp auto; /*per mettere gli elementi del menù sotto le note*/
+	  text-align: center;
+	  
+	  padding: 100px;
+	  border-top-left-radius: 8px;
+	  border-top-right-radius: 8px;
+	  
+	  padding: 0xp 11% 0xp 11%; /*perchè siano in linea con le note*/
+	 
+} 
 
 #menu a {
-
+	text-align:center;
 }
 
-/*
-#imghome {
-	margin: 10px 25%;
-	max-width: 80%;
-	height: 400px;
+.imghome {
+	position: absolute; top: 70%;
 }
-*/
 
-.font {text-align: center;}
+#font {text-align: center; padding-top: 3%;}
 
-/*
+#title { font-size: 200%; }
+
 #background { background-color:  #fffeef ; }
-*/
 
 #download {
-	text-align: left;
+	text-align: left; padding-left: 2%;
 }
 
 #albinoni {
 	margin: 10px 25%;
 	max-width: 80%;
 	height: 400px;
+}
+
+#musicisti { align-items: center; }
+
+.h123 {
+position: absolute;
+top: 25%;
+left: 100px;
+text-align: center;
+font-size:170%;
 }
 
