@@ -19,7 +19,9 @@ header { background-color: #a7f6f6;
   background-color:  #fffeef ;*/
 }
 
-.conteniner-fluid { background-image: linear-gradient ( 45deg, #212121, #616161); }
+.container-fluid { 
+	background-image: linear-gradient ( 45deg, #212121, #616161); 
+}
 
 h1 {font-size: 300%;}
 
@@ -105,7 +107,7 @@ font-size: 300%;
 } 
 
 #menu a {
-	text-align:center;
+	text-align:center; 
 }
 
 .imghome {
@@ -128,8 +130,6 @@ font-size: 300%;
 	height: 400px;
 }
 
-#musicisti { align-items: center; }
-
 .h123 {
 position: absolute;
 top: 25%;
@@ -138,3 +138,23 @@ text-align: center;
 font-size:170%;
 }
 
+nav ul li {
+	text-transform: uppercase;
+}
+
+
+
+
+/*stile per le pagine con gli spartiti*/
+
+.container {
+	margin: 10px auto 10px auto;
+}
+
+.button_container {
+	margin-bottom: 50px;
+}
+
+.video_container {
+	margin-bottom: 50px;
+}
