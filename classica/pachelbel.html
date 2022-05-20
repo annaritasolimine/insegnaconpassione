@@ -3,17 +3,66 @@
   <head>
   <meta charset="utf-8">
   <title>Musica Classica</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- libreria per lo stile del button 'download' -->
   </head>
 
       <body class="container-fluid"> 
-        <header>
-           <h1>Pachelbel J., CANON IN D</h1>
-            <a href="index.html"> 
-              <h1 id="logo"><img style="position: absolute; top: -30px; left:-5px" alt="logo" height="180" width="180" src="immagini/logo.png"></h1>
-          </a>
-        </header>
+           <header>   
+            <!-- <h1 style="position: absolute; top: -10%; left: 10%;"><img id="immaginemenu" src="immagini/pentagramma.png" alt="pentagramma"></h1> -->     
+      <a href="../index.html"> 
+        <img id="logo" src="../immagini/logo.png" alt="logo">
+      </a>
+
+      <div class="menudiv">        
+        <ul>
+          <li class="menu-list"> 
+            <a href="../classica.html">Classica</a>
+          </li>
+          <li class="menu-list"> 
+            <a href="../famose.html">Le più famose</a>
+          </li>
+          <li class="menu-list"> 
+             <a href="../disney.html">Disney</a>
+          </li>                
+        </ul>
+      </div>
+    </header>
+
+      <main class="pagina_spartiti">
+        <h1>Pachelbel J., CANON IN D</h1>
+        <section class="spartito_container container" > <!-- due classi diverse una specifica per lo spartito, l'altra generale per la struttura della pagina -->
+          <img src="../immagini/classica/pachelbel.jpeg" alt="pachelbel" width="300" height="500">
+        </section>
+
+        <section class="button_container container">
+          <a href="../immagini/classica/pachelbel.jpeg" download> 
+            <button class="btn"><i class="fa fa-download"></i> Download</button> 
+          </a> <!-- chiudo <a> alla fine così occupa tutto il bottone-->
+        </section>
+
+        <section class="video_container container">
+          <iframe width="420" height="345" src="https://youtu.be/1elGqARTb1Q">
+          </iframe>
+        </section>
+
+        <section class="commenti_container container">
+          <h2>Scrivi i tuoi suggerimenti o carica i tuoi arrangiamenti</h2>
+          <form id="commento" action=""> <!-- form permette all'utente di caricare dati sul sito e action indica la pagina che accetta ed elabora i dati -->
+            <textarea name="testo" form="commento" rows="5" cols="40">Dai un suggerimento ai tuoi colleghi...</textarea>
+            <br>
+            <label for="img">Carica qui i tuoi arrangiamenti</label>
+            <br>
+            <input type="file" id="img" name="img">
+            <br>
+            <br>
+            <input type="submit"></input>
+          </form>
+          
+        </section>
+      </main>
+    </body>
 </html>
