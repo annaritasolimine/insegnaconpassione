@@ -1,17 +1,17 @@
 body { 
 	margin: 0px; 
 	font-family: 'Oleo Script', cursive; 
-	background-color:  #fffeef ;
+	background-color:  #EFFFFF ;
 	/*text-align: center; lo sposto nel menudiv e nell'h123*/
-	/*padding: 10px 5% 0px 5%; perchè hai messo un padding?*/
+	/*padding: 10px 5% 0px 5%;*/
 
 }
 
 .container-fluid {
-	/*background-image: linear-gradient ( 45deg, #212121, #616161); perchè hai messo questa classe? non cambia niente*/
+	/*background-image: linear-gradient ( 45deg, #212121, #616161);*/
 }
 header { 
-	background-color: #a7f6f6;
+	background-color: #C4F5F2;
 	/*padding: 10px 5% 0px 5%;*/
 
   
@@ -27,11 +27,10 @@ header {
 
 
 #logo { 
-	width: 300px;
+	width: 400px;
 	margin: 2px auto auto auto;
 	display: block; 
 }
-
 
 
 a { 
@@ -48,9 +47,11 @@ div.menudiv
 li.menu-list {
 	display: inline;
 	margin: 0px 120px 0px 120px;
-	font-size: 30px;
+	font-size: 50px;
 	text-align: center;
 }
+
+
 
 /*
 h1 {
@@ -58,7 +59,7 @@ h1 {
 }
 
 section {text-align: center;} 
-in questo modo sballa tutto quello che metto io, se vuoi cambiare qualcosa usa gli id e le classi */
+*/
 
 
 
@@ -120,6 +121,7 @@ font-size: 300%;
 	  
 	  padding: 0xp 11% 0xp 11%; /*perchè siano in linea con le note*/
 	 
+
 } 
 
 #menu a {
@@ -130,7 +132,9 @@ font-size: 300%;
 	/*position: absolute; top: 70%;*/
 }
 
-#font {text-align: center; padding-top: 3%;}
+#font {text-align: center; 
+				padding-top: 3%;
+			}
 
 #title { font-size: 200%; }
 
@@ -152,17 +156,22 @@ font-size: 300%;
 top: 25%;
 left: 100px; */
 text-align: center;
-font-size:170%;
+font-size:330%;
 }
+
+.button {  }
 
 #pentagramma{
 	width: 100%;
 	display: block;
+	opacity: 0.5;
 }
+
 nav ul li {
 	text-transform: uppercase;
 }
 
+.tabella {vertical-align: middle;}
 
 
 
@@ -171,7 +180,7 @@ nav ul li {
 	text-align: center;
 }
 .container {
-	margin: 10px auto 10px auto;
+	margin: 50px auto 50px auto;
 }
 
 .button_container {
@@ -181,3 +190,41 @@ nav ul li {
 .video_container {
 	margin-bottom: 50px;
 }
+
+
+
+/* footer */
+
+
+#footer {position: relative;
+	text-align: center;
+	background-color: #C4F5F2;
+	font-size: 220% ;
+}
+
+#copyright {position: relative;
+	text-align: center;
+	background-color: #C4F5F2;
+	font-size: 80%;
+	padding-bottom: 1px ;
+}
+
+ul {
+list-style-type: none;
+}
+
+/* iscriviti */
+
+.iscriviti { text-align: center; 
+font-size: 170%;}
+
+.form-control { display: block;
+    width: 40%;
+    height: 120%;
+    padding: .375rem .75rem;
+    padding-top: 20px;
+    padding-right:5px;
+    padding-bottom: 20px;
+    padding-left: 5px; }
+
+div#form.row {margin-left: 50%;}
