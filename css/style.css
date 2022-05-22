@@ -37,18 +37,47 @@ a {
 	text-decoration: none;
 	color: inherit; /*prende il colore della classe sopra*/
 }
+a:hover { 
+	text-decoration: none;
+	color: lightblue; 
+}
+a:active { 
+	text-decoration: none;
+	color: blue; 
+}
 
+
+
+
+/*stile per il menu */
 div.menudiv
 { 
 	text-align: center;
 }
-
-
 li.menu-list {
-	display: inline;
+	display: inline;		/* da pc c'è abbastanza spazio, quindi mettiamo il menu in linea */
 	margin: 0px 120px 0px 120px;
 	font-size: 50px;
 	text-align: center;
+}
+
+.evidenziato {
+	background-color: white;
+	color: black;
+}
+
+@media only screen and (max-device-width: 600px) {
+	div.menudiv
+	{ 
+		text-align: center;
+	}
+	li.menu-list {
+		display: block;		/* da telefono non c'è abbastanza spazio, quindi mettiamo il menu incolonnato */
+		margin: 0px 120px 0px 120px;
+		font-size: 50px;
+		text-align: center;
+	}
+
 }
 
 
@@ -93,6 +122,17 @@ font-size: 300%;
 	padding: 5% 5% 0px 5%;
 }
 
+
+
+
+
+/* 
+A quale pezzo di codice si riferisce quessto menu??
+Perchè per il men+ principale avete giù la classe 
+.menudiv
+
+se non si riferisc e a niente, toglilo
+*/
 #menu ul {
 	
 	margin:0px;
@@ -108,7 +148,6 @@ font-size: 300%;
 
 	list-style-type: none;
 }
-
 #menu li {
 	 
 
@@ -123,18 +162,22 @@ font-size: 300%;
 	 
 
 } 
-
 #menu a {
 	text-align:center; 
 }
 
+
+/* 
+cos'è?
+*/
 .imghome {
 	/*position: absolute; top: 70%;*/
 }
 
-#font {text-align: center; 
-				padding-top: 3%;
-			}
+#font {
+	text-align: center; 
+	padding-top: 3%;
+}
 
 #title { font-size: 200%; }
 
@@ -145,11 +188,6 @@ font-size: 300%;
 	padding-left: 2%;
 }
 
-#albinoni {
-	margin: 10px 25%;
-	max-width: 80%;
-	height: 400px;
-}
 
 .h123 {
 /*position: absolute;
@@ -175,7 +213,9 @@ nav ul li {
 
 
 
+
 /*stile per le pagine con gli spartiti*/
+
 .pagina_spartiti {
 	text-align: center;
 }
@@ -195,7 +235,6 @@ nav ul li {
 
 /* footer */
 
-
 #footer {position: relative;
 	text-align: center;
 	background-color: #C4F5F2;
@@ -212,6 +251,8 @@ nav ul li {
 ul {
 list-style-type: none;
 }
+
+
 
 /* iscriviti */
 
