@@ -67,17 +67,9 @@ li.menu-list {
 }
 
 @media only screen and (max-device-width: 600px) {
-	div.menudiv
-	{ 
-		text-align: center;
-	}
 	li.menu-list {
 		display: block;		/* da telefono non c'è abbastanza spazio, quindi mettiamo il menu incolonnato */
-		margin: 0px 120px 0px 120px;
-		font-size: 50px;
-		text-align: center;
 	}
-
 }
 
 
