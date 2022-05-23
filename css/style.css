@@ -249,15 +249,24 @@ list-style-type: none;
 /* iscriviti */
 
 .iscriviti { text-align: center; 
-font-size: 170%;}
+font-size: 200%;}
 
 .form-control { display: block;
-    width: 40%;
-    height: 120%;
-    padding: .375rem .75rem;
+    width: 26%;
+    height: 130%;
     padding-top: 20px;
     padding-right:5px;
     padding-bottom: 20px;
     padding-left: 5px; }
 
-div#form.row {margin-left: 50%;}
+label {text-align: center;}
+
+input {margin-left: 37%;}
+
+.button_container {text-align: center;
+size: 30%;}
+
+
+/* about us */
+
+#descrizione {font-size: 190%; text-align: center;}
