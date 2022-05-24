@@ -4,20 +4,10 @@ body {
 	font-family: 'Oleo Script', cursive; 
 	background-color:  #EFFFFF; 
 	/*text-align: center; lo sposto nel menudiv e nell'h123*/
-	/*padding: 10px 5% 0px 5%;*/
 }
 
 header { 
 	background-color: #C4F5F2;
-	/*padding: 10px 5% 0px 5%;*/
-  
- 
-  /* text-align: center;
-  background-color: white;
-  color: red;
-  padding: 5% 5% 0px 5%;
-
-  background-color:  #fffeef ;*/
 }
 
 #logo { 
