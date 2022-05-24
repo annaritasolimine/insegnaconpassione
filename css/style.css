@@ -62,8 +62,6 @@ a:active {
 }
 
 .menu-list {
-	display: flex;		/* da pc c'è abbastanza spazio, quindi mettiamo il menu in linea */
-/*	margin: 0px 120px 0px 120px;	non possiamo usare i margini, altrimenti quando lo schermo si riduce, le parole vanno a capo e fanno schifo */
 	font-size: 50px;
 }
 
