@@ -4,16 +4,11 @@ body {
 	background-color:  #EFFFFF; 
 	/*text-align: center; lo sposto nel menudiv e nell'h123*/
 	/*padding: 10px 5% 0px 5%;*/
-
 }
 
-.container-fluid {
-	/*background-image: linear-gradient ( 45deg, #212121, #616161);*/
-}
 header { 
 	background-color: #C4F5F2;
 	/*padding: 10px 5% 0px 5%;*/
-
   
  
   /* text-align: center;
@@ -24,14 +19,11 @@ header {
   background-color:  #fffeef ;*/
 }
 
-
-
 #logo { 
 	width: 400px;
 	margin: 2px auto auto auto;
 	display: block; 
 }
-
 
 a { 
 	text-decoration: none;
@@ -45,8 +37,6 @@ a:active {
 	text-decoration: none;
 	color: blue; 
 }
-
-
 
 
 /*stile per il menu */
@@ -73,7 +63,6 @@ li.menu-list {
 }
 
 
-
 /*
 h1 {
 	font-size: 300%;
@@ -81,7 +70,6 @@ h1 {
 
 section {text-align: center;} 
 */
-
 
 
 /*.titolo {
@@ -93,78 +81,6 @@ section {text-align: center;}
 font-size: 300%;
 	background-color:  #fffeef ;
 }*/
-
-#immaginemenu {
-	margin: 0px;
-	max-width: 100%;
-
-}
-
- /* #menu {
-	text-align: center;
-	width: 100%;
-	height: 400px; */
-	
-	/*background-color:  #fffeef ;
-	background-image: url("../immagini/pentagramma.png");
-	background-repeat: no-repeat; 
-	background-size: 100% auto;		/*per rimpicciolire l'immagine di sfondo*/
-	background-size: cover; */			/*Resize the background image to cover the entire container */
-	
-	padding: 5% 5% 0px 5%;
-}
-
-
-
-
-
-/* 
-A quale pezzo di codice si riferisce quessto menu??
-Perchè per il men+ principale avete giù la classe 
-.menudiv
-
-se non si riferisc e a niente, toglilo
-*/
-#menu ul {
-	
-	margin:0px;
-	width:100%; /* Dimensioni della barra del menu */
-	height: 100%;
-	
-	padding-left:0px ;
-	padding-bottom: 1000px;
-	margin:0 auto;
-	
-	text-align: center;
-	padding: 0px 0px 0px 0px;
-
-	list-style-type: none;
-}
-#menu li {
-	 
-
-	  margin: auto auto 0xp auto; /*per mettere gli elementi del menù sotto le note*/
-	  text-align: center;
-	  
-	  padding: 100px;
-	  border-top-left-radius: 8px;
-	  border-top-right-radius: 8px;
-	  
-	  padding: 0xp 11% 0xp 11%; /*perchè siano in linea con le note*/
-	 
-
-} 
-#menu a {
-	text-align:center; 
-}
-
-
-/* 
-cos'è?
-*/
-.imghome {
-	/*position: absolute; top: 70%;*/
-}
 
 #font {
 	text-align: center; 
@@ -189,7 +105,6 @@ text-align: center;
 font-size:330%;
 }
 
-.button {  }
 
 #pentagramma{
 	width: 100%;
@@ -197,13 +112,7 @@ font-size:330%;
 	opacity: 0.5;
 }
 
-nav ul li {
-	text-transform: uppercase;
-}
-
-.tabella {vertical-align: middle;}
-
-
+.nopuntini { list-style:none;}
 
 
 /*stile per le pagine con gli spartiti*/
