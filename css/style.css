@@ -189,5 +189,8 @@ button:hover {
 
 /* Documentazione */
 
-.documentazione {  font-size: 180%;}
+.documentazione {
+	font-size: 180%;
+	padding: 20px;
+}
 .h1 { text-align: center; }
