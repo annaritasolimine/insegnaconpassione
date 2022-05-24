@@ -10,76 +10,73 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- libreria per lo stile del button 'download' -->
   </head>
 
-      <body class="container-fluid"> 
-           <header>   
-            <!-- <h1 style="position: absolute; top: -10%; left: 10%;"><img id="immaginemenu" src="immagini/pentagramma.png" alt="pentagramma"></h1> -->     
+  <body class="container-fluid"> 
+    <header>   
       <a href="../index.html"> 
         <img id="logo" src="../immagini/logo.png" alt="logo">
       </a>
     
-        <ul class="menudiv">
-          <li class="menu-list"> 
-            <a href="../classica.html">Classica</a>
-          </li>
-          <li class="menu-list"> 
-            <a href="../famose.html">Le più famose</a>
-          </li>
-          <li class="menu-list"> 
-             <a href="../disney.html">Disney</a>
-          </li>                
-        </ul>
+      <ul class="menudiv">
+        <li class="menu-list"> 
+          <a href="../classica.html">Classica</a>
+        </li>
+        <li class="menu-list"> 
+          <a href="../famose.html">Le più famose</a>
+        </li>
+        <li class="menu-list"> 
+           <a href="../disney.html">Disney</a>
+        </li>                
+      </ul>
     </header>
 
-      <main class="pagina_spartiti">
-        <h1>LIEBESTRUM NO.3 IN AB MAJOR</h1>
-        <h2>Liszt F.</h2>
-        <section class="spartito_container container" > <!-- due classi diverse una specifica per lo spartito, l'altra generale per la struttura della pagina -->
-          <img src="../immagini/classica/liszt.jpeg" alt="listz" width="300" height="500">
-        </section>
+    <main class="pagina_spartiti">
+      <h1>LIEBESTRUM NO.3 IN AB MAJOR</h1>
+      <h2>Liszt F.</h2>
+      <section class="spartito_container container" > <!-- due classi diverse una specifica per lo spartito, l'altra generale per la struttura della pagina -->
+        <img src="../immagini/classica/liszt.jpeg" alt="listz" width="300" height="500">
+      </section>
 
-        <section class="button_container container">
-          <a href="../immagini/classica/liszt.jpeg" download> 
-            <button class="btn"><i class="fa fa-download"></i> Download</button> 
-          </a> <!-- chiudo <a> alla fine così occupa tutto il bottone-->
-        </section>
+      <section class="button_container container">
+        <a href="../immagini/classica/liszt.jpeg" download> 
+          <button class="btn"><i class="fa fa-download"></i> Download</button> 
+        </a> <!-- chiudo <a> alla fine così occupa tutto il bottone-->
+      </section>
 
-        <section class="video_container container">
-         <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ651tNXp0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </section>
-
-        <section class="commenti_container container">
-          <h2>Scrivi i tuoi suggerimenti o carica i tuoi arrangiamenti</h2>
-          <form id="commento" action=""> <!-- form permette all'utente di caricare dati sul sito e action indica la pagina che accetta ed elabora i dati -->
-            <textarea name="testo" form="commento" rows="5" cols="40">Dai un suggerimento ai tuoi colleghi...</textarea>
-            <br>
-            <label for="img">Carica qui i tuoi arrangiamenti</label>
-            <br>
-            <input type="file" id="img" name="img">
-            <br>
-            <br>
-            <input type="submit"></input>
-          </form>
-             <div id="footer"> Seguici anche sui social!
-         <ul>
-            <li>
-        <a href="https://www.facebook.com/Insegna-con-Passione-106761782045508">
-                <img class="Facebook" src="../immagini/facebook.png" alt="Facebook" width="70" height="70">
-        </a>
-            </li>
-       </ul>
-               </section>
-        </main>
-       <div id="copyright">
-         All rights reserved | Images:
-        <a href="https://www.pinterest.it/">Pinterest</a>
-        | Videos:
-        <a href="https://www.youtube.com/">Youtube</a>
-        | Project made by Annarita Solimine & Valentina Zanotti - 
-        <a href="aboutus.html" id="aboutus">ABOUT US</a> |
-        <a href="documentazione.html">Documentazione</a>
-      </div>
-    </div> 
-        </section>
-      </main>
-    </body>
+      <section class="video_container container">
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/FZ651tNXp0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+      <section class="commenti_container container">
+        <h2>Scrivi i tuoi suggerimenti o carica i tuoi arrangiamenti</h2>
+        <form id="commento" action=""> <!-- form permette all'utente di caricare dati sul sito e action indica la pagina che accetta ed elabora i dati -->
+          <textarea name="testo" form="commento" rows="5" cols="40">Dai un suggerimento ai tuoi colleghi...</textarea>
+          <br>
+          <label for="img">Carica qui i tuoi arrangiamenti</label>
+          <br>
+          <input type="file" id="img" name="img">
+          <br>
+          <br>
+          <input type="submit"></input>
+        </form>
+      </section>
+    
+      <div id="footer"> Seguici anche sui social!
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/Insegna-con-Passione-106761782045508">
+            <img class="Facebook" src="../immagini/facebook.png" alt="Facebook" width="70" height="70">
+            </a>
+          </li>
+        </ul>
+        <div id="copyright">
+          All rights reserved | Images:
+          <a href="https://www.pinterest.it/">Pinterest</a>
+          | Videos:
+          <a href="https://www.youtube.com/">Youtube</a>
+          | Project made by Annarita Solimine & Valentina Zanotti - 
+          <a href="aboutus.html" id="aboutus">ABOUT US</a> |
+          <a href="documentazione.html">Documentazione</a>
+        </div>
+      </div> 
+    </main>
+  </body>
 </html>
