@@ -172,7 +172,7 @@ label {text-align: center;}
 
 .form-control {margin-left: 37%;}
 
-.btn_iscriviti {
+button {
 	font-weight: bold;
 	padding: 10px;
 	font-size: 100%;
@@ -180,7 +180,7 @@ label {text-align: center;}
 	border-radius: 5px;			/* per smussare i bordi */
 	cursor: pointer;			/* quando il cursore ci passa sopra diventa di tipo pointer (come se fosse un link) */
 }
-.btn_iscriviti:hover {
+button:hover {
 	background-color:  #efffff ; 
 	color: #009999;
 }
