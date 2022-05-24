@@ -197,7 +197,7 @@ button:hover {
 .h1 { text-align: center; }
 
 .imgdoc {
-display:flex
-flex-wrap: wrap
-max-width: 100%
+display:flex;
+flex-wrap: wrap;
+max-width: 100%;
 }
