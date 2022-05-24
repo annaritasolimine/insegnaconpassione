@@ -1,3 +1,4 @@
+
 body { 
 	margin: 0px; 
 	font-family: 'Oleo Script', cursive; 
@@ -21,7 +22,7 @@ header {
 
 #logo { 
 	width: 400px;
-	margin: 2px auto auto auto;
+	margin: 2px auto 20px auto;
 	display: block; 
 }
 
@@ -40,27 +41,38 @@ a:active {
 
 
 /*stile per il menu */
-div.menudiv
+.menudiv
 { 
 	text-align: center;
+	display: flex; 					/* permette di distanziare gli elementi del menu senza usare i margini */
+	width: 80%;
 }
-li.menu-list {
-	display: inline;		/* da pc c'è abbastanza spazio, quindi mettiamo il menu in linea */
-	margin: 0px 120px 0px 120px;
+@media all and (min-width: 800px) {
+	.menudiv {
+		flex-direction: row;			/* da pc c'è abbastanza spazio, quindi mettiamo il menu in riga */
+		justify-content: space-between; /* e mettiamo automaticamente dello spazio tra ogni elemento */
+	}
+}
+@media all and (max-width: 800px) {
+	.menudiv {
+		flex-direction: column;			/* da telefono non c'è abbastanza spazio, quindi mettiamo il menu incolonnato */
+		justify-content: space-around; 	/* e mettiamo automaticamente dello spazio tra ogni elemento */
+	}
+}
+
+.menu-list {
+	display: flex;		/* da pc c'è abbastanza spazio, quindi mettiamo il menu in linea */
+/*	margin: 0px 120px 0px 120px;	non possiamo usare i margini, altrimenti quando lo schermo si riduce, le parole vanno a capo e fanno schifo */
 	font-size: 50px;
-	text-align: center;
+	align-self: center;
 }
+
 
 .evidenziato {
 	background-color: white;
 	color: black;
 }
 
-@media only screen and (max-device-width: 600px) {
-	li.menu-list {
-		display: block;		/* da telefono non c'è abbastanza spazio, quindi mettiamo il menu incolonnato */
-	}
-}
 
 
 /*
@@ -102,7 +114,7 @@ font-size: 300%;
 top: 25%;
 left: 100px; */
 text-align: center;
-font-size:330%;
+font-size:200%;
 }
 
 
@@ -172,9 +184,18 @@ label {text-align: center;}
 
 .form-control {margin-left: 37%;}
 
-/* .button_container {text-align: center;
-size: 30%;} */
-
+.btn_iscriviti {
+	font-weight: bold;
+	padding: 10px;
+	font-size: 100%;
+	background-color: #C4F5F2;	
+	border-radius: 5px;			/* per smussare i bordi */
+	cursor: pointer;			/* quando il cursore ci passa sopra diventa di tipo pointer (come se fosse un link) */
+}
+.btn_iscriviti:hover {
+	background-color:  #efffff ; 
+	color: #009999;
+}
 
 /* about us */
 
