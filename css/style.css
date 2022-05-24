@@ -196,4 +196,7 @@ button:hover {
 }
 .h1 { text-align: center; }
 
-.imgdoc {text-align: center}
+.imgdoc {
+display:flex
+flex-wrap: wrap
+}
